@@ -14,11 +14,11 @@ while True:
 
     if op == 1:
         valor = float(input('Digite a temperatura em graus celsius: '))
-        print(graus(valor))
+        print('Temperatura em Fahrenheit: ', graus(valor))
 
     elif op == 2:
         valor = float(input('Digite a temperatura em fahrenheit: '))
-        print(fah(valor))
+        print('Temperatura em Graus: ', fah(valor))
 
     elif op == 3:
         print('Tchauuu :) ')
